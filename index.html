@@ -1,25 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-    div {
-      border: 1px solid black;
-      font-size: 30px;
-      font-weight: bold;
-      margin: 50px;
-      padding: 30px;
-      background-color: lightblue;
+  <meta charset="UTF-8">
+  <title>Welcome to Lee SeoungJoo’s Homepage (22300546)</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #1a1a2e;
+      color: white;
+      padding: 40px 20px;
       text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin: 5px 0 0;
+      font-size: 1.2rem;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      background-color: white;
+      padding: 20px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    section h2 {
+      margin-top: 0;
+      color: #1a1a2e;
+    }
+
+    .profile-info ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .profile-info li {
+      margin-bottom: 10px;
+      font-size: 1rem;
+    }
+
+    .notion-link a {
+      color: #1a73e8;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .images img {
+      max-width: 100%;
+      margin: 10px 0;
+      border-radius: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #1a1a2e;
+      color: white;
+      margin-top: 40px;
     }
   </style>
 </head>
 <body>
-    <h1>안녕하세요!</h1>
-    <dic>이게 div에요! 좌우로 넓게 차지하는 하나의 박스같은 느낌쓰?</dic>
+
+  <header>
+    <h1>Welcome to Lee SeoungJoo’s Homepage (22300546)</h1>
+    <p>한동대학교 전산심화 전공 | 부산 출생 | 기독교</p>
+  </header>
+
+  <main>
+
+    <!-- 소개 섹션 -->
+    <section class="profile-info">
+      <h2>About Me</h2>
+      <ul>
+        <li>이름: 이승주</li>
+        <li>생년월일: 2004.03.01</li>
+        <li>출생지: 부산</li>
+        <li>전공: 한동대학교 전산심화</li>
+        <li>종교: 기독교</li>
+        <li>사용가능한 언어: C, C++, JAVA, Python, HTML, CSS</li>
+        <li>관심 분야: 웹 개발, AI</li>
+        <li>추가내용: 리눅스에서 vi을 사용한 코딩 경험이 있습니다.</li>
+      </ul>
+    </section>
+
+    <!-- 노션 링크 섹션 -->
+    <section class="notion-link">
+      <h2>코딩 문제풀이 기록</h2>
+      <p>나의 문제풀이 기록과 과정은 아래 링크에서 확인할 수 있습니다:</p>
+      <p><a href="https://www.notion.so/Problem-Solving-1ef60d6e285080b28e44ca68fcc0dace?source=copy_link" target="_blank">Notion 페이지 바로가기</a></p>
+    </section>
+
+    <!-- 이미지 섹션 -->
+    <section class="images">
+      <h2>Notion Page Image</h2>
+      <div>
+        <embed src="ProblemSolving.pdf" type="application/pdf" width="800" height="600">
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    &copy; 2025 이승주 All rights reserved.
+  </footer>
+
 </body>
 </html>
-<!-- html 치면 뜨는 거 5버전 선택하면 자동으로 된다.-->
-<!-- https://github.com/csee-ps/project1-html-css-LeeSgjoo -->
